@@ -60,3 +60,22 @@ The other filtered events logged the changes to the other two security groups th
 ![Screenshot 2025-07-10 021230](https://github.com/user-attachments/assets/e5d948df-8668-49f6-9944-84331efb727b)
 
 ![Screenshot 2025-07-10 021914](https://github.com/user-attachments/assets/fbdf6df0-7bbf-47bf-a5c4-57eafcb70c61)
+
+
+This project successfully demonstrates how to build a proactive, automated remediation solution for managing security group configurations in AWS using AWS Config and AWS Lambda. By enforcing strict compliance with predefined security group rules, the solution mitigates potential vulnerabilities that could arise from unauthorized access or misconfigurations.
+
+Key outcomes of this implementation include:
+
+✅ Real-time detection of unauthorized changes to EC2 security groups
+
+🔄 Automatic remediation of non-compliant inbound rules via Lambda
+
+📊 Centralized visibility and auditability through Amazon CloudWatch Logs
+
+🔐 Strengthened security posture by maintaining consistent security group configurations
+
+This hands-on project highlights the power of AWS-native services in building automated security enforcement mechanisms. It also emphasizes best practices in least privilege IAM roles, resource monitoring, and event-driven automation, which are essential for any robust cloud security strategy.
+
+With this implementation in place, organizations can confidently monitor, detect, and respond to configuration drift in their AWS environments without manual intervention.
+
+
